@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BotWeb.com</title>
+	<link rel = "icon" href = "botweblogo.png" type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href="loginform.css">
+	<script type="text/javascript">
+		 function pass() {
+			var p1=document.getElementById('Username').value;
+			var p2=document.getElementById('pass1').value;
+			if (p1!='Bot1') {
+				alert("Password or username is incorrect");
+				return false;
+			}
+			else if (p2!='Bot@1#') {
+				alert("Password or username is incorrect");
+				return false;
+			}
+			else{
+				return true;
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="box">
+	<h1>WELCOME<br>BACK!!</h1>
+	<h2>Login</h2>
+	<form onsubmit="return pass();" action="dashboard.html" target="_self">
+	<div class="inputbox">
+<input type="text" name="Username" id="Username" required="required"/>
+<label for="Username">Username:</label>
+</div>
+<br><br>
+<div class="inputbox">
+<input type="password" id="pass1" required="required"/>
+<label for="pass1">Password:</label></div><br><br>
+<button type="submit" name="submit">Login</button>
+</form>
+</div>
+</body>
+</html>

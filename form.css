@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background:url(formbot.jpg);
+  background-size: cover;
+}
+.form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 40px;
+	background:rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,3);
+	border-radius: 50px;
+	width: 400px;
+}
+.form h2{
+	color: #03a9f4;
+	margin: 0 0 30px;
+	text-align: center;
+}
+.form .inputbox{
+	position: relative;
+}
+.form .inputbox input
+{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	color: #fff;
+	border:none;
+	outline: none;
+	background:transparent;
+	border-bottom: 1px solid #fff;
+}
+.form .inputbox input:hover{
+	border-color: #03a9f4;
+}
+.form .inputbox input:focus{
+	border-color: #03a9f4;
+}
+.form .inputbox label
+{
+	position: relative;
+	padding: 5px 0;
+	top: 0;
+	left: 0;
+	font-size: 16px;	
+	color: #fff;
+	pointer-events: none;
+	transition:.5s;
+}
+.form button
+{
+	border:none;
+	outline: none;
+	color: #03a9f4;
+	background:white;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.form button:hover
+{
+	background:#03a9f4;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover{
+	background:#03a9f4;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
