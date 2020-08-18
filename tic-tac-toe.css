@@ -1,0 +1,17 @@
+td{
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+  font-size: 100px;
+  padding: 0px;
+}
+ul{
+  text-align: left;
+  font-size: 1.5em;
+}
+
+#button{
+  margin-top: 20px;
+
+}
