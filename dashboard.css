@@ -1,6 +1,6 @@
 body{
-  background-color: #03a9f4;
-}
+  background:url(formbot.jpg);
+  background-size: cover;}
 ul {
   list-style-type: none;
   margin: 0;
@@ -30,4 +30,46 @@ border-bottom: 2px solid white;
 }
 .active{
   background-color:#f61067;
+}
+.def{
+  font-size: 20px;
+  color: white;
+  background:rgba(0,0,0,0.8);
+  width: 1000px;
+  position: relative;
+  padding: 20px;
+  border-radius: 20px;
+}
+.def:hover{
+  font-size: 32px;
+  font-weight: bold;
+}
+h1{
+  background-color: #f61067;
+  border-radius: 20px;
+}
+p{
+  background-color: #03a9f4;
+  border-radius: 20px;
+}
+span{
+  font-size: 64px;
+  color: #f61067;
+  background-color: white;
+  border-radius: 10px;
+}
+img{
+  width: 200px;
+  height: 200px;
+}
+.polaroid {
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+.container {
+  text-align: center;
+  padding: 10px 20px;
 }
